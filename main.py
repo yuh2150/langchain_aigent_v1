@@ -30,7 +30,6 @@ from langchain_core.messages import AIMessage, HumanMessage, ToolMessage , Syste
 from langchain_core.runnables import Runnable
 import uuid
 memory = MemorySaver()
-
 jupiterAPI = os.getenv('JUPITER_API')
 quoteAPI = str(jupiterAPI) + "/demand/v1/quotes"
 bookingsAPI  = str(jupiterAPI) + '/demand/v1/bookings'
